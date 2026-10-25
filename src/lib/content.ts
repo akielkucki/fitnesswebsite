@@ -88,16 +88,80 @@ export const caseStudies = [
 // Left empty, the form skips sending and just shows the thank-you message.
 export const discoveryEndpoint = ''
 
+// Discovery form, step by step. Each pain point carries a reply that acknowledges it, one follow-up question
+// with its answers, and the line it adds to the call plan on the last step.
 export const painPoints = [
-  'Gym memberships cost too much',
-  'No time to get to a gym',
-  'Lifting hurts my joints or back',
-  'Stuck on a plateau',
-  'Not sure what to train',
-  'Hard to stay consistent',
-  'I travel a lot',
-  'The gym intimidates me',
+  {
+    label: 'Gym memberships cost too much',
+    reply: 'Fair. You pay every month whether you go or not, and most of that pays for equipment you don’t need.',
+    question: 'What do you spend on training right now?',
+    options: ['Nothing yet', 'Under $50 a month', '$50 to $150 a month', 'Over $150 a month'],
+    agenda: 'Setting up to train at home for under $60, once',
+  },
+  {
+    label: 'No time to get to a gym',
+    reply: 'That’s not a discipline problem. The commute and the wait for a rack often take longer than the training.',
+    question: 'How much time could you train each week?',
+    options: ['Under an hour', '1 to 2 hours', '2 to 3 hours', 'More than 3 hours'],
+    agenda: 'A schedule that fits the hours you actually have',
+  },
+  {
+    label: 'Lifting hurts my joints or back',
+    reply: 'Pain is worth listening to, not pushing through. Heavy loading is one way to get strong, and for a lot of people it’s the wrong one.',
+    question: 'How much is it affecting your training?',
+    options: ['Occasional twinges', 'I train around it', 'It keeps me out for weeks', 'I’ve stopped training'],
+    agenda: 'Progressions that work around your joints, not through them',
+  },
+  {
+    label: 'Stuck on a plateau',
+    reply: 'A plateau usually means the program stopped changing, not that you’ve hit your limit.',
+    question: 'How long have you been stuck?',
+    options: ['A few weeks', 'A few months', 'Over a year', 'I’ve lost count'],
+    agenda: 'Where your progress stalled, and how to restart it',
+  },
+  {
+    label: 'Not sure what to train',
+    reply: 'With endless programs online all saying something different, being unsure is the reasonable reaction. You need one plan, not more options.',
+    question: 'How do you train at the moment?',
+    options: ['Random YouTube videos', 'An app or a PDF', 'I make it up as I go', 'I’m not training yet'],
+    agenda: 'Exactly what to train, week by week',
+  },
+  {
+    label: 'Hard to stay consistent',
+    reply: 'Consistency gets easier with a plan that fits your week and someone who notices when you miss a session.',
+    question: 'What usually breaks your streak?',
+    options: ['Work or family gets busy', 'I lose motivation', 'I don’t see progress', 'Soreness or injury'],
+    agenda: 'How we keep you training when life gets busy',
+  },
+  {
+    label: 'I travel a lot',
+    reply: 'Hotel gyms and new schedules break most programs. Bodyweight training goes wherever you do.',
+    question: 'How often are you away?',
+    options: ['A few days a month', 'Every other week', 'Most weeks', 'I live out of a bag'],
+    agenda: 'A routine you can do in a hotel room',
+  },
+  {
+    label: 'The gym intimidates me',
+    reply: 'That’s more common than people admit, and it’s a good enough reason to train somewhere else. Your living room has no audience.',
+    question: 'What puts you off most?',
+    options: ['Feeling watched', 'Not knowing what to do', 'Waiting for equipment', 'The whole atmosphere'],
+    agenda: 'A plan you can start at home, with no one watching',
+  },
 ]
+
+export const triedBefore = ['A gym membership', 'A personal trainer', 'Apps or online programs', 'YouTube workouts', 'Training on my own']
+
+// `agenda` finishes the sentence “A 12-week plan toward …” on the call plan
+export const goals = [
+  { label: 'My first pull-up', agenda: 'your first strict pull-up' },
+  { label: 'A muscle-up', agenda: 'your first muscle-up' },
+  { label: 'A handstand', agenda: 'a freestanding handstand' },
+  { label: 'Visible muscle', agenda: 'building visible muscle' },
+  { label: 'Losing fat', agenda: 'losing fat and keeping it off' },
+  { label: 'Training without pain', agenda: 'training without pain' },
+]
+
+export const readiness = ['Ready to start now', 'Interested, but I want to see the plans first', 'Just exploring for now']
 
 export const faqs = [
   {
