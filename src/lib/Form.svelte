@@ -136,7 +136,7 @@
   const error = 'mt-3 text-sm font-medium text-red-800'
 </script>
 
-<section id="discovery" bind:this={section} class="px-3 md:px-5">
+<section id="discovery" bind:this={section} class="px-3 md:px-5 md:pt-24 md:pb-32 pb-16">
   <div
     class="theme-light mx-auto grid max-w-[90rem] gap-10 rounded-[2rem] bg-brand-light px-6 py-16 md:px-12 md:py-24 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20 lg:px-20"
   >
