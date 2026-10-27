@@ -37,8 +37,8 @@
 <section id="top" class="px-5 pt-16 pb-20 md:px-8 md:pt-24 md:pb-32">
   <div class="mx-auto max-w-4xl text-center">
     <h1 class="text-balance">
-      <span class="heading-2xl block animate-wipe-left py-2" style="--i: 0">Build the body you want.</span>
-      <span class="heading-xl block text-brand animate-wipe-right py-2" style="--i: 1">Every session laid out.</span>
+      <span class="heading-2xl block animate-wipe-left py-2" style="--i: 0">Your dream physique</span>
+      <span class="heading-xl block text-brand animate-wipe-right py-2" style="--i: 1">NO MORE GUESSWORK</span>
     </h1>
     <!-- Fades in once the headline has finished wiping in -->
     <p

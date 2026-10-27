@@ -26,7 +26,7 @@
       threshold: 0
     } : {
       root: null,
-      rootMargin: '-25% 0px -25% 0px',
+      rootMargin: '0px',
       threshold: 1.0
     }
     let runnable: number | null = null;

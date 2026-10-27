@@ -11,9 +11,9 @@ export const videoUrl = 'https://interactive-examples.mdn.mozilla.net/media/cc0-
 
 // PLACEHOLDER testimonial: replace with a real client quote
 export const heroQuote = {
-  text: 'Two years in the gym and I looked exactly the same. Five months on the plan and people ask what I changed. Bigger shoulders, bigger arms, and finally some abs.',
+  text: 'Two years in the gym and I looked exactly the same. One months on the plan and people ask what I changed. Bigger shoulders, bigger arms, and finally some abs.',
   name: 'Daniel R.',
-  detail: 'Client for 7 months',
+  detail: 'Client for 4 months',
 }
 
 export const withoutPlan = [
