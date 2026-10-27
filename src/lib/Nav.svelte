@@ -7,7 +7,7 @@
     <a href="#top" class="font-serif text-[1.65rem] leading-none text-ink">{brand}</a>
     <nav class="flex items-center gap-7">
       <a href="#program" class="hidden text-sm font-medium text-ink-soft transition-colors hover:text-ink md:block">Program</a>
-      <a href="#case-studies" class="hidden text-sm font-medium text-ink-soft transition-colors hover:text-ink md:block">Case studies</a>
+      <a href="#case-studies" class="hidden text-sm font-medium text-ink-soft transition-colors hover:text-ink md:block">Results</a>
       <a href="#faq" class="hidden text-sm font-medium text-ink-soft transition-colors hover:text-ink md:block">FAQ</a>
       <a
         href={applyUrl}

@@ -6,8 +6,8 @@
 <section id="apply" class="px-3 md:px-5">
   <div class="mx-auto max-w-[90rem] rounded-[2rem] bg-surface px-6 ring-1 ring-line py-24 text-center md:py-32">
     <h2 class="heading-lg text-white">
-      Your body is the only gym<br />
-      <em class="text-brand-light">you’ll ever need.</em>
+      Stop guessing.<br />
+      <em class="text-brand-light">Start building.</em>
     </h2>
     <p class="mx-auto mt-7 max-w-md text-lg leading-relaxed text-balance text-white/70">
       I take on a limited number of clients each month so everyone gets real attention. Applying takes two minutes.

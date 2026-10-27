@@ -16,19 +16,20 @@
     />
 
     <div>
-      <h2 class="heading-lg">I quit the gym and got stronger.</h2>
+      <h2 class="heading-lg">I trained for years and looked the same.</h2>
+      <!-- PLACEHOLDER story: swap in the coach's real background -->
       <div class="mt-8 space-y-5 text-lg leading-relaxed">
         <p>
-          For years I trained the way everyone does: barbells, machines and a membership I resented paying. My
-          numbers went up, and my shoulders paid for it.
+          For years I trained the way most people do: whatever workout I found that week, more sets when I felt
+          motivated, and a body that barely changed.
         </p>
         <p>
-          When I switched to calisthenics I got stronger, leaner and more capable than I’d ever been under a bar,
-          and I haven’t paid for a gym since.
+          What finally worked was structure. Gym lifts for size, calisthenics for shape and control, and a plan that
+          told me exactly what to do every session.
         </p>
         <p class="text-ink">
-          Now I coach people to do the same: build real, usable strength with nothing but their own body, on a plan
-          made for them.
+          Now I lay out that plan for other people, built around their body, their schedule and the physique they
+          actually want.
         </p>
       </div>
       <p class="mt-8 text-sm text-muted">Founder, {brand}</p>

@@ -5,9 +5,9 @@
 <section id="case-studies" class="px-5 py-20 md:px-8 md:py-32">
   <div class="mx-auto max-w-6xl">
     <div class="grid gap-6 md:grid-cols-2 md:items-end md:gap-12">
-      <h2 class="heading-lg">Real clients.<br />Zero barbells.</h2>
+      <h2 class="heading-lg">Real clients.<br />Real changes.</h2>
       <p class="max-w-md text-lg leading-relaxed md:justify-self-end">
-        Desk jobs, busy weeks and no gym. Here’s what a few months of coached bodyweight training did for them.
+        Desk jobs, busy weeks and no clear plan. Here’s what a few months of following one did for them.
       </p>
     </div>
 

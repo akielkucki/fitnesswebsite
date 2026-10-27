@@ -8,6 +8,7 @@
   import Nav from './lib/Nav.svelte'
   import Program from './lib/Program.svelte'
   import Form from "./lib/Form.svelte";
+  import BeforeAfter from "./lib/BeforeAfter.svelte";
 </script>
 
 <Nav />
@@ -17,7 +18,7 @@
   <Form />
 
   <Program />
-  <CaseStudies />
+  <BeforeAfter />
   <Coach />
   <Faq />
   <FinalCta />

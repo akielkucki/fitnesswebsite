@@ -301,7 +301,7 @@
                 <textarea
                   bind:value={why}
                   rows="4"
-                  placeholder="e.g. I’d stop paying for a gym I barely use, and my shoulder would finally stop flaring up."
+                  placeholder="e.g. I’d finally look like I train, and feel confident with my shirt off at the beach."
                   class="{input} mt-3 resize-none py-3 leading-relaxed"
                 ></textarea>
               </label>

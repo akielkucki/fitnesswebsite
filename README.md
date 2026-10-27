@@ -1,47 +1,67 @@
-# Svelte + TS + Vite
+# Fitness Website
 
-This template should help get you started developing with Svelte and TypeScript in Vite.
+A fitness-focused frontend project built with **Svelte 5**, **TypeScript**, **Tailwind CSS**, and **Vite**.
 
-## Recommended IDE Setup
+This repository is part of my web development portfolio, reflecting my work with reactive interfaces, component-driven development, and modern frontend tooling.
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+## Tech stack
 
-## Need an official Svelte framework?
+- **Svelte 5** — reactive UI framework
+- **TypeScript** — typed application code
+- **Tailwind CSS 4** — utility-first styling
+- **Vite** — development server and production builds
+- **Cloudflare Workers / Wrangler** — deployment tooling configured in the project
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+## What this project demonstrates
 
-## Technical considerations
+- Building web interfaces using Svelte and TypeScript
+- Structuring a frontend project with modern JavaScript tooling
+- Working with Tailwind CSS for application styling
+- Configuring type-checking, builds, and deployment scripts
 
-**Why use this over SvelteKit?**
+## Getting started
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+### Prerequisites
 
-This template contains as little as possible to get started with Vite + TypeScript + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+- Node.js and npm
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+### Install and run
 
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
-
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
-
-**Why include `.vscode/extensions.json`?**
-
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
-
-**Why enable `allowJs` in the TS template?**
-
-While `allowJs: false` would indeed prevent the use of `.js` files in the project, it does not prevent the use of JavaScript syntax in `.svelte` files. In addition, it would force `checkJs: false`, bringing the worst of both worlds: not being able to guarantee the entire codebase is TypeScript, and also having worse typechecking for the existing JavaScript. In addition, there are valid use cases in which a mixed codebase may be relevant.
-
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```ts
-// store.ts
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
+```bash
+git clone https://github.com/akielkucki/fitnesswebsite.git
+cd fitnesswebsite
+npm install
+npm run dev
 ```
+
+Open the local URL printed by Vite.
+
+## Available commands
+
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Start the Vite development server |
+| `npm run check` | Run Svelte and TypeScript checks |
+| `npm run build` | Build for production |
+| `npm run preview` | Build and run a local Wrangler preview |
+| `npm run deploy` | Build and deploy through Wrangler |
+
+> Cloudflare commands may require appropriate local credentials and configuration.
+
+## Repository structure
+
+```text
+public/             Static assets
+src/                Application source code
+svelte.config.js    Svelte configuration
+vite.config.ts      Vite configuration
+wrangler.jsonc      Cloudflare deployment configuration
+```
+
+## Project status
+
+Portfolio / development project. See the source code for the current implementation; this README intentionally does not claim features that have not been verified in the repository.
+
+## Author
+
+**Alex** — [GitHub](https://github.com/akielkucki)
