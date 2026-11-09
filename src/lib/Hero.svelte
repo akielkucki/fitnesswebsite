@@ -1,5 +1,5 @@
 <script lang="ts">
-  import coach from '../assets/coach.webp'
+  import after from '../assets/after.webp'
   import Button from './Button.svelte'
   import VideoPlayer from './VideoPlayer.svelte'
 
@@ -35,10 +35,10 @@
 </script>
 
 <section id="top" class="px-5 pt-16 pb-20 md:px-8 md:pt-24 md:pb-32">
-  <div class="mx-auto max-w-4xl text-center">
+  <div class="mx-auto max-w-4xl md:max-w-full text-center">
     <h1 class="text-balance">
       <span class="heading-2xl block animate-wipe-left py-2" style="--i: 0">Your dream physique</span>
-      <span class="heading-xl block text-brand animate-wipe-right py-2" style="--i: 1">NO MORE GUESSWORK</span>
+      <span class="heading-xl block text-brand animate-wipe-right py-2" style="--i: 1">BLUEPRINTED</span>
     </h1>
     <!-- Fades in once the headline has finished wiping in -->
     <p
@@ -50,7 +50,7 @@
   </div>
 
   <div class="mx-auto mt-12 max-w-5xl md:mt-16">
-    <VideoPlayer src={videoUrl} poster={coach} title="How the plan builds an aesthetic physique" />
+    <VideoPlayer src={videoUrl} poster={after} title="How the plan builds an aesthetic physique" />
   </div>
 
   <div class="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">

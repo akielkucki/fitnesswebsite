@@ -1,5 +1,5 @@
 <script lang="ts">
-  import coach from '../assets/coach.webp'
+  import results from '../assets/results.jpg'
   import Button from './Button.svelte'
   import { applyUrl, brand } from './content'
 </script>
@@ -7,7 +7,7 @@
 <section id="coach" class="px-5 pb-20 md:px-8 md:pb-32">
   <div class="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-[0.85fr_1fr] md:gap-20">
     <img
-      src={coach}
+      src={results}
       alt="Founder of {brand} in a dark suit, leaning against a concrete wall"
       width="1080"
       height="1440"
